@@ -42,6 +42,7 @@ function startup() {
 		type: "custom",
 		label: LABEL,
 		tooltiptext: TOOLTIP,
+		defaultArea: CustomizableUI.AREA_NAVBAR,
 		onBuild(document) {
 			const button = createElement(document, "toolbarbutton", {
 				id: ID,
