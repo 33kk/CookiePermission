@@ -55,7 +55,7 @@ function startup() {
 
 			const popup = createElement(document, "menupopup");
 
-			for (const pVal of Object.values(CookiePermission)) {
+			for (const pVal of COOKIE_PERMISSION_VALUES) {
 				popup.appendChild(createElement(document, "menuitem", {
 					label: COOKIE_PERMISSION_VALUE_LABELS[pVal],
 					type: "radio",
