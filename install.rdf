@@ -4,7 +4,7 @@
      xmlns:em="http://www.mozilla.org/2004/em-rdf#">
 
   <Description about="urn:mozilla:install-manifest">
-    <em:name>CookiePermission</em:name>
+    <em:name>Cookie Permission</em:name>
     <em:id>CookiePermission-unlisted@33kk.github.com</em:id>
     <em:homepageURL>https://github.com/33kk/CookiePermission</em:homepageURL>
     <em:version>0.0.1</em:version>
